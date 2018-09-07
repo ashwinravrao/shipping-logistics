@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+  ~ Developed by Ashwin Rao in June 2017.
+  ~ Last Modified 9/7/18 12:43 PM.
+  ~ Copyright (c) 2018. All rights reserved.
+  -->
+
+<OrderList>
+
+    <Order Id="TO-001">
+        <OrderTime>1</OrderTime>
+        <Destination>Miami, FL</Destination>
+        <Item>
+            <Id>ABC123</Id>
+            <Quantity>180</Quantity>
+        </Item>
+        <Item>
+            <Id>CR2032</Id>
+            <Quantity>320</Quantity>
+        </Item>
+    </Order>
+
+    <Order Id="TO-002">
+        <OrderTime>1</OrderTime>
+        <Destination>Boston, MA</Destination>
+        <Item>
+            <Id>PL132-C</Id>
+            <Quantity>5</Quantity>
+        </Item>
+        <Item>
+            <Id>XLK200B</Id>
+            <Quantity>120</Quantity>
+        </Item>
+    </Order>
+
+    <Order Id="TO-003">
+        <OrderTime>4</OrderTime>
+        <Destination>Seattle, WA</Destination>
+        <Item>
+            <Id>XTP202</Id>
+            <Quantity>100</Quantity>
+        </Item>
+        <Item>
+            <Id>E241i</Id>
+            <Quantity>105</Quantity>
+        </Item>
+    </Order>
+
+    <Order Id="TO-004">
+        <OrderTime>10</OrderTime>
+        <Destination>Phoenix, AZ</Destination>
+        <Item>
+            <Id>CR2032</Id>
+            <Quantity>200</Quantity>
+        </Item>
+        <Item>
+            <Id>SR71-D</Id>
+            <Quantity>85</Quantity>
+        </Item>
+    </Order>
+
+    <Order Id="TO-005">
+        <OrderTime>7</OrderTime>
+        <Destination>Chicago, IL</Destination>
+        <Item>
+            <Id>XLK200B</Id>
+            <Quantity>120</Quantity>
+        </Item>
+        <Item>
+            <Id>RX100-3</Id>
+            <Quantity>200</Quantity>
+        </Item>
+        <Item>
+            <Id>SN-241-L</Id>
+            <Quantity>60</Quantity>
+        </Item>
+    </Order>
+
+    <Order Id="TO-006">
+        <OrderTime>1</OrderTime>
+        <Destination>Denver, CO</Destination>
+        <Item>
+            <Id>CT1928</Id>
+            <Quantity>120</Quantity>
+        </Item>
+        <Item>
+            <Id>MM35P</Id>
+            <Quantity>200</Quantity>
+        </Item>
+    </Order>
+
+</OrderList>

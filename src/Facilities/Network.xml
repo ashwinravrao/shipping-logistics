@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+  ~ Developed by Ashwin Rao in June 2017.
+  ~ Last Modified 9/7/18 12:43 PM.
+  ~ Copyright (c) 2018. All rights reserved.
+  -->
+
+<Network>
+
+    <Facility id="warehouse">
+
+        <FName>Seattle, WA</FName>
+        <Items>8</Items>
+        <Cost>300</Cost>
+
+        <Link>
+            <Name>Fargo, ND</Name>
+            <Distance>1426</Distance>
+        </Link>
+
+        <Link>
+            <Name>San Francisco, CA</Name>
+            <Distance>808</Distance>
+        </Link>
+
+        <Item>
+            <Id>ABC123</Id>
+            <Quantity>45</Quantity>
+        </Item>
+
+        <Item>
+            <Id>JBL3100</Id>
+            <Quantity>52</Quantity>
+        </Item>
+
+        <Item>
+            <Id>PL132-C</Id>
+            <Quantity>54</Quantity>
+        </Item>
+
+        <Item>
+            <Id>PU238</Id>
+            <Quantity>60</Quantity>
+        </Item>
+
+    </Facility>
+
+    <Facility id="warehouse">
+
+        <FName>San Francisco, CA</FName>
+        <Items>12</Items>
+        <Cost>300</Cost>
+
+        <Link>
+            <Name>Seattle, WA</Name>
+            <Distance>808</Distance>
+        </Link>
+
+        <Link>
+            <Name>Denver, CO</Name>
+            <Distance>1249</Distance>
+        </Link>
+
+        <Link>
+            <Name>Los Angeles, CA</Name>
+            <Distance>382</Distance>
+        </Link>
+
+        <Item>
+            <Id>RL123A</Id>
+            <Quantity>40</Quantity>
+        </Item>
+
+        <Item>
+            <Id>XLK200B</Id>
+            <Quantity>8</Quantity>
+        </Item>
+
+        <Item>
+            <Id>SR71-D</Id>
+            <Quantity>81</Quantity>
+        </Item>
+
+        <Item>
+            <Id>CT1928</Id>
+            <Quantity>46</Quantity>
+        </Item>
+
+    </Facility>
+
+    <Facility id="warehouse">
+
+        <FName>Los Angeles, CA</FName>
+        <Items>10</Items>
+        <Cost>300</Cost>
+
+        <Link>
+            <Name>San Francisco, CA</Name>
+            <Distance>382</Distance>
+        </Link>
+
+        <Link>
+            <Name>Phoenix, AZ</Name>
+            <Distance>372</Distance>
+        </Link>
+
+        <Item>
+            <Id>RX100-3</Id>
+            <Quantity>57</Quantity>
+        </Item>
+
+        <Item>
+            <Id>JBL3100</Id>
+            <Quantity>60</Quantity>
+        </Item>
+
+        <Item>
+            <Id>E241i</Id>
+            <Quantity>44</Quantity>
+        </Item>
+
+        <Item>
+            <Id>XTP202</Id>
+            <Quantity>32</Quantity>
+        </Item>
+
+    </Facility>
+
+    <Facility id="warehouse">
+
+        <FName>Phoenix, AZ</FName>
+        <Items>8</Items>
+        <Cost>300</Cost>
+
+        <Link>
+            <Name>Los Angeles, CA</Name>
+            <Distance>372</Distance>
+        </Link>
+
+        <Link>
+            <Name>Santa Fe, NM</Name>
+            <Distance>480</Distance>
+        </Link>
+
+        <Item>
+            <Id>RX100-3</Id>
+            <Quantity>18</Quantity>
+        </Item>
+
+        <Item>
+            <Id>SR71-D</Id>
+            <Quantity>55</Quantity>
+        </Item>
+
+        <Item>
+            <Id>SN-214-L</Id>
+            <Quantity>22</Quantity>
+        </Item>
+
+        <Item>
+            <Id>ZTF109</Id>
+            <Quantity>54</Quantity>
+        </Item>
+
+    </Facility>
+
+    <Facility id="warehouse">
+
+        <FName>Denver, CO</FName>
+        <Items>10</Items>
+        <Cost>300</Cost>
+
+        <Link>
+            <Name>San Francisco, CA</Name>
+            <Distance>1249</Distance>
+        </Link>
+
+        <Link>
+            <Name>Santa Fe, NM</Name>
+            <Distance>392</Distance>
+        </Link>
+
+        <Link>
+            <Name>Fargo, ND</Name>
+            <Distance>889</Distance>
+        </Link>
+
+        <Link>
+            <Name>St. Louis, MO</Name>
+            <Distance>851</Distance>
+        </Link>
+
+        <Item>
+            <Id>ABC123</Id>
+            <Quantity>80</Quantity>
+        </Item>
+
+        <Item>
+            <Id>RL123A</Id>
+            <Quantity>110</Quantity>
+        </Item>
+
+        <Item>
+            <Id>RTF110</Id>
+            <Quantity>100</Quantity>
+        </Item>
+
+    </Facility>
+
+    <Facility id="warehouse">
+
+        <FName>Santa Fe, NM</FName>
+        <Items>8</Items>
+        <Cost>300</Cost>
+
+        <Link>
+            <Name>Phoenix, AZ</Name>
+            <Distance>480</Distance>
+        </Link>
+
+        <Link>
+            <Name>Denver, CO</Name>
+            <Distance>392</Distance>
+        </Link>
+
+        <Link>
+            <Name>St. Louis, MO</Name>
+            <Distance>1032</Distance>
+        </Link>
+
+        <Link>
+            <Name>Austin, TX</Name>
+            <Distance>688</Distance>
+        </Link>
+
+        <Item>
+            <Id>RX100-3</Id>
+            <Quantity>144</Quantity>
+        </Item>
+
+        <Item>
+            <Id>CR2032</Id>
+            <Quantity>280</Quantity>
+        </Item>
+
+    </Facility>
+
+    <Facility id="warehouse">
+
+        <FName>Fargo, ND</FName>
+        <Items>8</Items>
+        <Cost>300</Cost>
+
+        <Link>
+            <Name>Seattle, WA</Name>
+            <Distance>1426</Distance>
+        </Link>
+
+        <Link>
+            <Name>Denver, CO</Name>
+            <Distance>889</Distance>
+        </Link>
+
+        <Link>
+            <Name>Chicago, IL</Name>
+            <Distance>643</Distance>
+        </Link>
+
+        <Item>
+            <Id>ABC123</Id>
+            <Quantity>25</Quantity>
+        </Item>
+
+        <Item>
+            <Id>JBL3100</Id>
+            <Quantity>32</Quantity>
+        </Item>
+
+        <Item>
+            <Id>XLK200B</Id>
+            <Quantity>82</Quantity>
+        </Item>
+
+    </Facility>
+
+    <Facility id="warehouse">
+
+        <FName>Austin, TX</FName>
+        <Items>10</Items>
+        <Cost>300</Cost>
+
+        <Link>
+            <Name>Santa Fe, NM</Name>
+            <Distance>688</Distance>
+        </Link>
+
+        <Link>
+            <Name>St. Louis, MO</Name>
+            <Distance>825</Distance>
+        </Link>
+
+        <Link>
+            <Name>New Orleans, LA</Name>
+            <Distance>512</Distance>
+        </Link>
+
+        <Item>
+            <Id>RL123A</Id>
+            <Quantity>66</Quantity>
+        </Item>
+
+        <Item>
+            <Id>RX100-3</Id>
+            <Quantity>35</Quantity>
+        </Item>
+
+        <Item>
+            <Id>SN-241-L</Id>
+            <Quantity>35</Quantity>
+        </Item>
+
+    </Facility>
+
+    <Facility id="warehouse">
+
+        <FName>St. Louis, MO</FName>
+        <Items>12</Items>
+        <Cost>300</Cost>
+
+        <Link>
+            <Name>Chicago, IL</Name>
+            <Distance>297</Distance>
+        </Link>
+
+        <Link>
+            <Name>Nashville, TN</Name>
+            <Distance>309</Distance>
+        </Link>
+
+        <Link>
+            <Name>Austin, TX</Name>
+            <Distance>825</Distance>
+        </Link>
+
+        <Link>
+            <Name>Santa Fe, NM</Name>
+            <Distance>1032</Distance>
+        </Link>
+
+        <Link>
+            <Name>Denver, CO</Name>
+            <Distance>851</Distance>
+        </Link>
+
+        <Item>
+            <Id>ABC123</Id>
+            <Quantity>70</Quantity>
+        </Item>
+
+        <Item>
+            <Id>SR71-D</Id>
+            <Quantity>45</Quantity>
+        </Item>
+
+        <Item>
+            <Id>PU238</Id>
+            <Quantity>82</Quantity>
+        </Item>
+
+    </Facility>
+
+    <Facility id="warehouse">
+
+        <FName>Chicago, IL</FName>
+        <Items>10</Items>
+        <Cost>300</Cost>
+
+        <Link>
+            <Name>Fargo, ND</Name>
+            <Distance>643</Distance>
+        </Link>
+
+        <Link>
+            <Name>St. Louis, MO</Name>
+            <Distance>297</Distance>
+        </Link>
+
+        <Link>
+            <Name>New York City, NY</Name>
+            <Distance>790</Distance>
+        </Link>
+
+        <Link>
+            <Name>Detroit, MI</Name>
+            <Distance>282</Distance>
+        </Link>
+
+        <Item>
+            <Id>ABC123</Id>
+            <Quantity>60</Quantity>
+        </Item>
+
+        <Item>
+            <Id>E241i</Id>
+            <Quantity>64</Quantity>
+        </Item>
+
+        <Item>
+            <Id>CT1928</Id>
+            <Quantity>20</Quantity>
+        </Item>
+
+        <Item>
+            <Id>RTF110</Id>
+            <Quantity>110</Quantity>
+        </Item>
+
+        <Item>
+            <Id>XTP202</Id>
+            <Quantity>20</Quantity>
+        </Item>
+
+    </Facility>
+
+    <Facility id="warehouse">
+
+        <FName>New Orleans, LA</FName>
+        <Items>10</Items>
+        <Cost>300</Cost>
+
+        <Link>
+            <Name>Austin, TX</Name>
+            <Distance>512</Distance>
+        </Link>
+
+        <Link>
+            <Name>Nashville, TN</Name>
+            <Distance>532</Distance>
+        </Link>
+
+        <Link>
+            <Name>Atlanta, GA</Name>
+            <Distance>469</Distance>
+        </Link>
+
+        <Link>
+            <Name>Miami, FL</Name>
+            <Distance>864</Distance>
+        </Link>
+
+        <Item>
+            <Id>MM35P</Id>
+            <Quantity>100</Quantity>
+        </Item>
+
+        <Item>
+            <Id>PU238</Id>
+            <Quantity>49</Quantity>
+        </Item>
+
+        <Item>
+            <Id>ZTF109</Id>
+            <Quantity>120</Quantity>
+        </Item>
+
+    </Facility>
+
+    <Facility id="warehouse">
+
+        <FName>Nashville, TN</FName>
+        <Items>8</Items>
+        <Cost>300</Cost>
+
+        <Link>
+            <Name>St. Louis, MO</Name>
+            <Distance>309</Distance>
+        </Link>
+
+        <Link>
+            <Name>New Orleans, LA</Name>
+            <Distance>532</Distance>
+        </Link>
+
+        <Link>
+            <Name>Norfolk, VA</Name>
+            <Distance>706</Distance>
+        </Link>
+
+        <Item>
+            <Id>RX100-3</Id>
+            <Quantity>78</Quantity>
+        </Item>
+
+        <Item>
+            <Id>XLK200B</Id>
+            <Quantity>250</Quantity>
+        </Item>
+
+        <Item>
+            <Id>CR2032</Id>
+            <Quantity>366</Quantity>
+        </Item>
+
+        <Item>
+            <Id>SN-241-L</Id>
+            <Quantity>16</Quantity>
+        </Item>
+
+    </Facility>
+
+    <Facility id="warehouse">
+
+        <FName>Detroit, MI</FName>
+        <Items>10</Items>
+        <Cost>300</Cost>
+
+        <Link>
+            <Name>Chicago, IL</Name>
+            <Distance>282</Distance>
+        </Link>
+
+        <Link>
+            <Name>New York City, NY</Name>
+            <Distance>614</Distance>
+        </Link>
+
+        <Link>
+            <Name>Boston, MA</Name>
+            <Distance>719</Distance>
+        </Link>
+
+        <Item>
+            <Id>JBL3100</Id>
+            <Quantity>117</Quantity>
+        </Item>
+
+        <Item>
+            <Id>SR71-D</Id>
+            <Quantity>8</Quantity>
+        </Item>
+
+        <Item>
+            <Id>CT1928</Id>
+            <Quantity>72</Quantity>
+        </Item>
+
+    </Facility>
+
+    <Facility id="warehouse">
+
+        <FName>Boston, MA</FName>
+        <Items>10</Items>
+        <Cost>300</Cost>
+
+        <Link>
+            <Name>Detroit, MI</Name>
+            <Distance>719</Distance>
+        </Link>
+
+        <Link>
+            <Name>New York City, NY</Name>
+            <Distance>215</Distance>
+        </Link>
+
+        <Item>
+            <Id>MM35P</Id>
+            <Quantity>47</Quantity>
+        </Item>
+
+        <Item>
+            <Id>PL132-C</Id>
+            <Quantity>83</Quantity>
+        </Item>
+
+        <Item>
+            <Id>CT1928</Id>
+            <Quantity>65</Quantity>
+        </Item>
+
+    </Facility>
+
+    <Facility id="warehouse">
+
+        <FName>New York City, NY</FName>
+        <Items>14</Items>
+        <Cost>300</Cost>
+
+        <Link>
+            <Name>Boston, MA</Name>
+            <Distance>215</Distance>
+        </Link>
+
+        <Link>
+            <Name>Detroit, MI</Name>
+            <Distance>614</Distance>
+        </Link>
+
+        <Link>
+            <Name>Chicago, IL</Name>
+            <Distance>790</Distance>
+        </Link>
+
+        <Link>
+            <Name>Norfolk, VA</Name>
+            <Distance>363</Distance>
+        </Link>
+
+        <Item>
+            <Id>RL123A</Id>
+            <Quantity>12</Quantity>
+        </Item>
+
+        <Item>
+            <Id>CR2032</Id>
+            <Quantity>132</Quantity>
+        </Item>
+
+        <Item>
+            <Id>E241i</Id>
+            <Quantity>72</Quantity>
+        </Item>
+
+        <Item>
+            <Id>ZTF109</Id>
+            <Quantity>28</Quantity>
+        </Item>
+
+    </Facility>
+
+    <Facility id="warehouse">
+
+        <FName>Norfolk, VA</FName>
+        <Items>10</Items>
+        <Cost>300</Cost>
+
+        <Link>
+            <Name>New York City, NY</Name>
+            <Distance>363</Distance>
+        </Link>
+
+        <Link>
+            <Name>Nashville, TN</Name>
+            <Distance>706</Distance>
+        </Link>
+
+        <Link>
+            <Name>Atlanta, GA</Name>
+            <Distance>566</Distance>
+        </Link>
+
+        <Item>
+            <Id>MM35P</Id>
+            <Quantity>66</Quantity>
+        </Item>
+
+        <Item>
+            <Id>RL123A</Id>
+            <Quantity>50</Quantity>
+        </Item>
+
+        <Item>
+            <Id>XLK200B</Id>
+            <Quantity>14</Quantity>
+        </Item>
+
+    </Facility>
+
+    <Facility id="warehouse">
+
+        <FName>Atlanta, GA</FName>
+        <Items>10</Items>
+        <Cost>300</Cost>
+
+        <Link>
+            <Name>Norfolk, VA</Name>
+            <Distance>566</Distance>
+        </Link>
+
+        <Link>
+            <Name>New Orleans, LA</Name>
+            <Distance>469</Distance>
+        </Link>
+
+        <Link>
+            <Name>Miami, FL</Name>
+            <Distance>663</Distance>
+        </Link>
+
+        <Item>
+            <Id>RX100-3</Id>
+            <Quantity>90</Quantity>
+        </Item>
+
+        <Item>
+            <Id>E241i</Id>
+            <Quantity>32</Quantity>
+        </Item>
+
+        <Item>
+            <Id>PU238</Id>
+            <Quantity>120</Quantity>
+        </Item>
+
+    </Facility>
+
+    <Facility id="warehouse">
+
+        <FName>Miami, FL</FName>
+        <Items>12</Items>
+        <Cost>300</Cost>
+
+        <Link>
+            <Name>Atlanta, GA</Name>
+            <Distance>663</Distance>
+        </Link>
+
+        <Link>
+            <Name>New Orleans, LA</Name>
+            <Distance>864</Distance>
+        </Link>
+
+        <Item>
+            <Id>MM35P</Id>
+            <Quantity>16</Quantity>
+        </Item>
+
+        <Item>
+            <Id>JBL3100</Id>
+            <Quantity>44</Quantity>
+        </Item>
+
+        <Item>
+            <Id>SR71-D</Id>
+            <Quantity>15</Quantity>
+        </Item>
+
+        <Item>
+            <Id>SN-241-L</Id>
+            <Quantity>28</Quantity>
+        </Item>
+
+        <Item>
+            <Id>XTP202</Id>
+            <Quantity>88</Quantity>
+        </Item>
+
+    </Facility>
+
+</Network>
